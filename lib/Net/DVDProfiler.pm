@@ -3,6 +3,8 @@ package Net::DVDProfiler;
 use LWP::UserAgent;
 use Net::DVDProfiler::DVD;
 
+our $VERSION = 0.03;
+
 sub new {
   my $ref = shift;
   my $class = ref( $ref ) || $ref;
